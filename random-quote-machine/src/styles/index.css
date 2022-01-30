@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+body {
+  background-color: rgb(233, 231, 231);
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40vw;
+  border: 1px solid rgb(143, 88, 0);
+  background-color: #fdf1d7;
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(143, 88, 0);
+}
+
+#quote-box {
+  margin-top: 20px;
+  width: 30vw;
+  height: 25vh;
+  padding: 20px;
+  display: table;
+  background-color: rgb(236, 218, 185);
+  border: 1px solid rgb(143, 88, 0);
+  border-radius: 10px;
+}
+#quote-box .quote-text {
+  text-align: center;
+  width: 30vw;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+#quote-box .quote-text i {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+#quote-box .quote-author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+#quote-box .buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+#quote-box .buttons .button {
+  height: 38px;
+  border: 1px solid rgb(143, 88, 0);
+  border-radius: 3px;
+  color: rgb(54, 34, 2);
+  background-color: rgb(223, 155, 8);
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+#quote-box .buttons .button:hover {
+  opacity: 0.9;
+}
+#quote-box .buttons .button#tweet-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+  color: rgb(143, 88, 0);
+}
+#quote-box .buttons .button#new-quote {
+  float: right;
+  font-weight: 700;
+  color: rgb(143, 88, 0);
+}
