@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
 
 body {
   background-color: rgb(233, 231, 231);
   color: #333;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
   padding: 0;
   list-style: none;
   vertical-align: baseline;
@@ -20,50 +15,51 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 40vw;
+  margin: 3rem auto 0;
+  width: 80%;
   border: 1px solid rgb(143, 88, 0);
   background-color: #fdf1d7;
   padding: 20px;
   border-radius: 20px;
   color: rgb(143, 88, 0);
 }
+.card > h2 {
+  text-align: center;
+}
 
-#quote-box {
+.quote-box {
   margin-top: 20px;
-  width: 30vw;
-  height: 25vh;
   padding: 20px;
   display: table;
   background-color: rgb(236, 218, 185);
   border: 1px solid rgb(143, 88, 0);
   border-radius: 10px;
 }
-#quote-box .quote-text {
+.quote-box .quote-text {
   text-align: center;
-  width: 30vw;
   height: auto;
   clear: both;
   font-weight: 500;
-  font-size: 1.75em;
+  font-size: 1.2em;
 }
-#quote-box .quote-text i {
+.quote-box .quote-text i {
   font-size: 1em;
   margin-right: 0.4em;
 }
-#quote-box .quote-author {
-  width: 450px;
+.quote-box .quote-author {
+  width: 90%;
   height: auto;
   clear: both;
   padding-top: 20px;
   font-size: 1em;
   text-align: right;
 }
-#quote-box .buttons {
-  width: 450px;
+.quote-box .buttons {
+  width: 90%;
   margin: auto;
   display: block;
 }
-#quote-box .buttons .button {
+.quote-box .buttons .button {
   height: 38px;
   border: 1px solid rgb(143, 88, 0);
   border-radius: 3px;
@@ -76,10 +72,10 @@ body {
   opacity: 1;
   cursor: pointer;
 }
-#quote-box .buttons .button:hover {
+.quote-box .buttons .button:hover {
   opacity: 0.9;
 }
-#quote-box .buttons .button#tweet-quote {
+.quote-box .buttons .button#tweet-quote {
   float: left;
   padding: 0px;
   padding-top: 8px;
@@ -90,8 +86,16 @@ body {
   width: 40px;
   color: rgb(143, 88, 0);
 }
-#quote-box .buttons .button#new-quote {
+.quote-box .buttons .button#new-quote {
   float: right;
   font-weight: 700;
   color: rgb(143, 88, 0);
+}
+@media only screen and (min-width: 768px) {
+  .card {
+    max-width: 40vw;
+  }
+  .quote-box .quote-text {
+    font-size: 1.75rem;
+  }
 }
