@@ -18,16 +18,16 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
 
 ## Desktop view -Fullscreen HD
 
-![A preview of the desktop design](src/images/desktop.png)
+![A preview of the desktop design](images/desktop.png)
 
 ## Tablet view - width - 1200px
 
-![A preview of the tablet design](src/images/width-1200.png)
+![A preview of the tablet design](images/width-1200.png)
 
 ## Tablet view - width - 750px
 
-![A preview of the tablet design](src/images/width-750.png)
+![A preview of the tablet design](images/width-750.png)
 
 ## Mobile view - width - 350px
 
-![A preview of the mobile design](src/images/width-350.png)
+![A preview of the mobile design](images/width-350.png)
